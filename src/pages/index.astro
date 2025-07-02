@@ -2,15 +2,41 @@
 
 ---
 
-<html lang="en">
+<html lang="es">
 	<head>
 		<meta charset="utf-8" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
+		<title>Calculadora de Francos - Clínica Allende</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 	</head>
-	<body>
-		<h1>Astro</h1>
+	<body class="bg-gray-50 font-sans antialiased">
+		<div class="min-h-screen flex items-center justify-center">
+			<div class="text-center space-y-6 animate-fade-in">
+				<h1 class="text-4xl font-bold text-gray-900">
+					Calculadora de Francos
+				</h1>
+				<p class="text-xl text-gray-600">
+					Clínica Allende - Sistema 4-1 / 4-2
+				</p>
+				<div class="flex gap-4 justify-center">
+					<div class="bg-trabajo-500 text-white px-4 py-2 rounded-lg font-medium">
+						Días de Trabajo
+					</div>
+					<div class="bg-franco-500 text-white px-4 py-2 rounded-lg font-medium">
+						Días de Franco
+					</div>
+					<div class="bg-allende-500 text-white px-4 py-2 rounded-lg font-medium">
+						Clínica Allende
+					</div>
+				</div>
+				<p class="text-sm text-gray-500 animate-slide-up">
+					✅ Tailwind CSS configurado correctamente
+				</p>
+			</div>
+		</div>
 	</body>
 </html>
