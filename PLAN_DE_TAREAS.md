@@ -16,7 +16,7 @@ Desarrollo de una landing page para calcular días de franco de enfermeras sigui
 - **Framework**: Astro JS (SPA híbrida)
 - **Styling**: Tailwind CSS
 - **Componentes**: shadcn/ui
-- **Lenguaje**: TypeScript estricto
+- **Lenguaje**: TypeScript estrictooooo
 - **Testing**: Vitest
 - **Persistencia**: localStorage
 
