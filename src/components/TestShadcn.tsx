@@ -1,6 +1,6 @@
-import React from 'react';
-import { Button } from './ui/button';
-import { Card, CardHeader, CardTitle, CardContent } from './ui/card';
+import React from "react";
+import { Button } from "./ui/button";
+import { Card, CardHeader, CardTitle, CardContent } from "./ui/card";
 
 export default function TestShadcn() {
   return (
@@ -16,12 +16,12 @@ export default function TestShadcn() {
             </p>
             <div className="flex gap-2">
               <Button variant="default">Botón Primary</Button>
-              <Button variant="outline">Botón Outline</Button>
-              <Button variant="secondary">Botón Secondary</Button>
+              <Button variant="outline">Botón Outlineeee</Button>
+              <Button variant="secondary">Botón Secondaryyyy</Button>
             </div>
           </div>
         </CardContent>
       </Card>
     </div>
   );
-} 
+}
